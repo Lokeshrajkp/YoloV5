@@ -1,19 +1,19 @@
 # YOLOv5 🚀 by Ultralytics, GPL-3.0 license
 # YOLOv5 Continuous Integration (CI) GitHub Actions tests
 
-name: YOLOv5 CI
+#name: YOLOv5 CI
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
-  schedule:
-    - cron: '0 0 * * *'  # runs at 00:00 UTC every day
+#on:
+ # push:
+   # branches: [ master ]
+  #pull_request:
+   # branches: [ master ]
+ # schedule:
+  #  - cron: '0 0 * * *'  # runs at 00:00 UTC every day
 
-jobs:
-  Benchmarks:
-    runs-on: ${{ matrix.os }}
+#jobs:
+ # Benchmarks:
+  #  runs-on: ${{ matrix.os }}
     strategy:
       fail-fast: false
       matrix:

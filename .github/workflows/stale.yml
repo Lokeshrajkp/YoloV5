@@ -1,11 +1,11 @@
 # YOLOv5 🚀 by Ultralytics, GPL-3.0 license
 
-name: Close stale issues
-on:
-  schedule:
-    - cron: '0 0 * * *'  # Runs at 00:00 UTC every day
+#name: Close stale issues
+#on:
+ # schedule:
+   # - cron: '0 0 * * *'  # Runs at 00:00 UTC every day
 
-jobs:
+#jobs:
   stale:
     runs-on: ubuntu-latest
     steps:

@@ -1,13 +1,13 @@
 # This action runs GitHub's industry-leading static analysis engine, CodeQL, against a repository's source code to find security vulnerabilities.
 # https://github.com/github/codeql-action
 
-name: "CodeQL"
+#name: "CodeQL"
 
-on:
-  schedule:
-    - cron: '0 0 1 * *'  # Runs at 00:00 UTC on the 1st of every month
+#on:
+  #schedule:
+    #- cron: '0 0 1 * *'  # Runs at 00:00 UTC on the 1st of every month
 
-jobs:
+#jobs:
   analyze:
     name: Analyze
     runs-on: ubuntu-latest
